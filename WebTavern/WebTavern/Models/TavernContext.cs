@@ -1,4 +1,6 @@
-﻿namespace WebTavern.Models
+﻿using WebTavern.Models.EFModels;
+
+namespace WebTavern.Models
 {
     using System.Data.Entity;
 

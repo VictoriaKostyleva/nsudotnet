@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 using WebTavern.Models;
+using WebTavern.Models.EFModels;
+using WebTavern.Models.ViewModels;
 
 namespace WebTavern.Controllers
 {
@@ -64,8 +66,6 @@ namespace WebTavern.Controllers
                 Drinks = items
             };
             return View(viewModel);
-
-            //return View(drinks.ToList());
         }
 
         // GET: Drink/Details/5

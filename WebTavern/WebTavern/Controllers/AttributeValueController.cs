@@ -3,6 +3,7 @@ using System.Linq;
 using System.Net;
 using System.Web.Mvc;
 using WebTavern.Models;
+using WebTavern.Models.EFModels;
 
 namespace WebTavern.Controllers
 {
